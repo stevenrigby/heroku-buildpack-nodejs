@@ -11,6 +11,7 @@ env_dir=$3
 
 echo "EMPEZOOOOOOOOO"
 echo $build_dir
+ls $build_dir
 
 bp_dir=$(cd $(dirname $0); cd ..; pwd)
 
